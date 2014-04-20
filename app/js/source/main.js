@@ -12,11 +12,11 @@
   function select(){
 
     if(player===1){
-      $(this).text('x');
+      // $(this).text('x');
       $(this).addClass('x');
       $(this).removeClass('empty');
     } else {
-      $(this).text('o');
+      // $(this).text('o');
       $(this).addClass('o');
       $(this).removeClass('empty');
     }

@@ -1,5 +1,15 @@
+h1{
+  text-align: center;
+}
+
+body{
+  background-image: url('../media/giftly.png');
+}
+
 #board{
   border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td{
@@ -9,12 +19,22 @@ td{
   text-align: center;
 }
 
+td:hover {
+  background-color: #20f1a8;
+}
+
 .x {
-  font-size: 50px;
+  background-image: url('../media/cat.jpg');
+  background-image: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .o {
-  font-size: 50px;
+  background-image: url('../media/dog.jpg');
+  background-image: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .highlight{

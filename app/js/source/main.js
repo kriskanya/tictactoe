@@ -7,6 +7,13 @@
 
   function initialize(){
     $('#board').on('click', 'td.empty', select);    //only .empty can be selected
+    $('#reset').click(reset);
+  }
+
+  function reset(){
+    $('tbody > tr > td').removeClass('x');
+    $('tbody > tr > td').removeClass('o');
+    $('tbody > tr > td').addClass('empty');
   }
 
   function select(){

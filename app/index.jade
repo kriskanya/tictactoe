@@ -5,7 +5,10 @@ html(lang='en')
     title Tic-Tac-Toe
     link(rel='stylesheet', href='./css/app.css')
   body
+
+  div#header
     h1 Tic-Tac-Toe
+    button#reset Reset/New Game
     table#board
       tbody
         - for(var y = 0; y < 3; y++)
